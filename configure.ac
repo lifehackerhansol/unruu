@@ -1,7 +1,7 @@
 AC_CONFIG_MACRO_DIR([m4])
 AC_INIT([unruu],[0.3.1])
 AM_INIT_AUTOMAKE([1.10 no-define foreign])
-AC_PROG_LIBTOOL
+LT_INIT
 AC_PROG_CC
 
 AC_ARG_WITH([static], AS_HELP_STRING([--with-static],
